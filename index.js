@@ -18,7 +18,6 @@
 
 const CrudServiceBuilder = require('./builder')
 
-// Aqui temos o exemplo de um crud usando o GraphQL, mas podemos imaginra instrucoes SQL aqui.
 const { sqlById, sqlByContains, sqlCreate, sqlUpdate, sqlDelete } = require('./sql')
 
 const crudService = new CrudServiceBuilder()
